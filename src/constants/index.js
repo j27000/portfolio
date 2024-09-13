@@ -201,7 +201,7 @@ const experiences = [
       "Simulated complex backend operations for game inventory, orders, and user data, reducing development time.",
       "Crafted an intuitive order management dashboard, improving order tracking efficiency and enhancing customer satisfaction.",
       "Implemented JWT-based authentication, bolstering user session security and reducing unauthorized access attempts.",
-      "Designed responsive UI components, ensuring seamless user experience across devices."
+      "Designed responsive UI components, ensuring seamless user experience across devices. "
     ],
     skills: [
       "React",
