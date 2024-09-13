@@ -185,7 +185,7 @@ const experiences = [
       "React",
       "MongoDB",
       "RESTful API",
-      "Zod"
+      "Zod","TDD"
     ],
   },
   {
