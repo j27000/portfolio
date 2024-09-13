@@ -19,9 +19,9 @@ const ExperienceCard = ({ experience }) => {
         background: "#1d1836",
         color: "#fff",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      // iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
           <img
@@ -41,6 +41,7 @@ const ExperienceCard = ({ experience }) => {
           {experience.company_name}
         </p>
       </div>
+
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
@@ -51,9 +52,10 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+
       <div className="mt-5">
         <h4 className="font-semibold">Skills :</h4>
-        <ul className=" flex flex-wrap gap-3 mt-3 ml-6">
+        <ul className="flex flex-wrap gap-3 mt-3 ml-6">
           {experience.skills.map((skill, index) => (
             <li
               key={`experience-skill-${index}`}
@@ -71,14 +73,15 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
-      </motion.div>
+
+
+      <p className={`${styles.sectionSubText} text-center`}>
+        What I have done so far
+      </p>
+      <h2 className={`${styles.sectionHeadText} text-center`}>
+        Project Experience.
+      </h2>
+
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

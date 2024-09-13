@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-import { github, twtter, linkedin, instagram } from "../assets";
+import { github, leetcode, linkedin, instagram } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -139,14 +139,14 @@ const Contact = () => {
       <div className="flex flex-col justify-center items-center mt-28">
         <div className="flex flex-row gap-6">
           <a
-            href="https://www.linkedin.com/in/kundan-mokhale-75b1b7210/"
+            href="https://www.linkedin.com/in/naman-jhala-171a551b4/"
             className="relative block h-8 w-8"
             target="_blank"
           >
             <img src={linkedin} alt="linkedin" />
           </a>
           <a
-            href="https://github.com/kundann760"
+            href="https://github.com/j27000"
             className="relative block h-8 w-8"
             target="_blank"
           >
@@ -154,22 +154,16 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/kundann_mokhle/"
+            href="https://leetcode.com/u/Naman_2700/"
             className="relative block h-8 w-8"
             target="_blank"
           >
-            <img src={instagram} alt="instagram" />
+            <img src={leetcode} alt="leetcode" />
           </a>
-          <a
-            href="https://twitter.com/kndntwt"
-            className="relative block h-8 w-8"
-            target="_blank"
-          >
-            <img src={twtter} alt="twitter" />
-          </a>
+
         </div>
         <div className="mt-4">
-          <p>© 2024 Kundan Mokhale. All rights reserved.</p>
+          <p>© 2024 Naman jhala. All rights reserved.</p>
         </div>
       </div>
     </>

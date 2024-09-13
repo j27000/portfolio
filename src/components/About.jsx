@@ -47,19 +47,38 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and Java,
-        and professional expertise in frameworks like React, Tailwind. also
-        worked on RPA realted things. I'm a quick learner and collaborate
-        closely with clients to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems.{" "}
+        Naman Jhala
+        Software Developer | MS in Computer Science Candidate
+
+        <br /> <br />
+        Dedicated software developer pursuing an MS in Computer Science at Binghamton University, with a strong foundation from a BS in Computer Science at Medi-caps University. Specialized in frontend development with a focus on backend technologies.
+        <br /> <br />
+        Key Projects:
+        <br /> <br />
+        1. Petadopt: Web application leveraging AI for pet adoption matching. Technologies: Firebase, React, AI
+        <br /> <br />
+        2. Library Management System**: Efficient system using TypeScript, TDD, and MongoDB
+        <br /> <br />
+        3. Game Street: Online game store featuring advanced cart management and JWT authentication
+        <br /> <br />
+        Technical Skills:
+        <br /> <br />
+        - Languages: JavaScript, C, C++
+        <br /> <br />
+        - Frontend: React, HTML, CSS, Tailwind CSS
+        <br /> <br />
+        - Backend: Firebase, RESTful APIs
+        <br /> <br />
+        - Tools: Git, Jest, Test-Driven Development
+        <br /> <br />
+
+        Committed to leveraging technology to solve real-world problems and create impactful user experiences. Continuously expanding knowledge to contribute effectively to software development.
+        <br /> <br />
+
+  
         <b>Let's work together to bring your ideas to life!</b>
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
     </>
   );
 };

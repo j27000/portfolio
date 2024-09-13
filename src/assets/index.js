@@ -5,7 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import menu from "./menu.svg";
-
+import leetcode from "./leetcode.png"
 import github from "./github.png";
 import twtter from "./twtter.webp";
 import linkedin from "./linkedin.png";
@@ -43,6 +43,9 @@ import ts from "./tech/typescript.webp";
 import aws from "./company/aws.png";
 import valuelabs from "./company/Valuelabs.png";
 import tcr from "./company/tcr.png";
+import gameStreet from "./company/gameStreet.png"
+import petadopt from "./company/petadopt.png"
+import library from "./company/library.avif"
 
 import food2 from "./food2.png";
 import fakeshop from "./fakeshop.jpg";
@@ -78,6 +81,9 @@ export {
   aws,
   valuelabs,
   tcr,
+  gameStreet,
+  petadopt,
+  library,
   food2,
   circle,
   fakeshop,
@@ -107,4 +113,5 @@ export {
   sakshi,
   sahil,
   chain,
+  leetcode,
 };

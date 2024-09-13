@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 const Hero = () => {
   const [roles] = useTypewriter({
-    words: ["Web Developer", "RPA Developer", "Problem Solver", "Programmer"],
+    words: ["Web Developer", "Problem Solver"],
     loop: {},
     typeSpeed: 60,
     deleteSpeed: 80,
@@ -33,22 +33,17 @@ const Hero = () => {
           <div className="text-center md:text-start">
             <h1 className={styles.heroHeadText}>
               Hi, I'm <br />
-              <span className="text-[#915EFF]">Kundan</span>
+              <span className="text-[#915EFF]">Naman</span>
             </h1>
 
             <div className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-              <span>I am a</span>
+              <span></span>
               <br />
-              <span>{roles}</span>
+              <span></span>
             </div>
 
-            <a
-              href="/"
-              className="bg-gradient-to-br from-purple-700 to-pink-500 mt-6 inline-block cursor-pointer rounded-2xl bg-accent  px-6 py-3 font-semibold tracking-wider text-white shadow-lg transition-all hover:scale-105"
-              target="_blank"
-            >
-              Check Resume
-            </a>
+
+
           </div>
         </div>
         {/* Right side */}
@@ -57,7 +52,7 @@ const Hero = () => {
           <div className="relative mx-auto  flex aspect-square max-h-[280px] w-full max-w-[280px] items-center justify-center rounded-full md:max-h-[400px] md:max-w-[400px]">
             <img
               src={profile1}
-              alt="Kundan's Profile"
+              alt="Naman's Profile"
               fill="true"
               className="rounded-full border-2 border-accent object-cover"
               priority="true"
