@@ -153,6 +153,7 @@ const experiences = [
       "Launched an innovative shopping cart solution that enhanced user engagement by enabling personalized product recommendations.",
       "Leveraged React Context API for state management",
       "Conceptualized React Router for navigation."
+
     ],
     skills: [
       "React",
@@ -178,6 +179,7 @@ const experiences = [
       "Integrated Zod validation framework, fortifying server-side input validation.",
       "MongoDB Integration and Process Streamlining: Optimized data storage with MongoDB and simplified library processes to reduce check-out/check-in times.",
       "Orchestrated MongoDB integration, optimizing data storage and retrieval speeds through efficient CRUD operations.",
+
     ],
     skills: [
       "TypeScript",
@@ -201,6 +203,7 @@ const experiences = [
       "Crafted an intuitive order management dashboard, improving order tracking efficiency and enhancing customer satisfaction.",
       "Implemented JWT-based authentication, bolstering user session security and reducing unauthorized access attempts.",
       "Designed responsive UI components, ensuring seamless user experience across devices. "
+
     ],
     skills: [
       "React",

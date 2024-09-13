@@ -57,20 +57,12 @@ const About = () => {
         <br /> <br />
         1. Petadopt: Web application leveraging AI for pet adoption matching. Technologies: Firebase, React, AI
         <br /> <br />
-        2. Library Management System**: Efficient system using TypeScript, TDD, and MongoDB
+
+        2. Library Management System: Efficient system using TypeScript, TDD, and MongoDB
         <br /> <br />
         3. Game Street: Online game store featuring advanced cart management and JWT authentication
         <br /> <br />
-        Technical Skills:
-        <br /> <br />
-        - Languages: JavaScript, C, C++
-        <br /> <br />
-        - Frontend: React, HTML, CSS, Tailwind CSS
-        <br /> <br />
-        - Backend: Firebase, RESTful APIs
-        <br /> <br />
-        - Tools: Git, Jest, Test-Driven Development
-        <br /> <br />
+
 
         Committed to leveraging technology to solve real-world problems and create impactful user experiences. Continuously expanding knowledge to contribute effectively to software development.
         <br /> <br />
