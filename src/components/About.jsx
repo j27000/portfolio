@@ -58,7 +58,7 @@ const About = () => {
         1. Petadopt: Web application leveraging AI for pet adoption matching. Technologies: Firebase, React, AI, Node.js, Express, MongoDB
         <br /> <br />
 
-        2. Library Management System: Efficient system using TypeScript, TDD, and MongoDB.
+        2. Library Management System: Efficient system using TypeScript, React, Nodejs, TDD, and MongoDB.
         <br /> <br />
         3. Game Street: Online game store featuring advanced cart management and JWT authentication
         <br /> <br />
