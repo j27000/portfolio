@@ -55,10 +55,12 @@ const About = () => {
         <br /> <br />
         Key Projects:
         <br /> <br />
-        1. Petadopt: Web application leveraging AI for pet adoption matching. Technologies: Firebase, React, AI, Node.js, Express, MongoDB
+        1. Petadopt: Web application leveraging AI for pet adoption matching. 
+        <br />Technologies: Firebase, React, AI, Node.js, Express, MongoDB <br />
         <br /> <br />
 
-        2. Library Management System: Efficient system using TypeScript, React, Nodejs, TDD, and MongoDB.
+        2. Library Management System TypeScript, React, Nodejs, TDD, and MongoDB.
+        <br /> Technologies: TypeScript, React, Nodejs, TDD, and MongoDB Nodejs <br />
         <br /> <br />
         3. Game Street: Online game store featuring advanced cart management and JWT authentication
         <br /> <br />
