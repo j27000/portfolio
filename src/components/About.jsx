@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Naman Jhala
-        Software Developer | MS in Computer Science Candidate
+    
 
         <br /> <br />
         Dedicated software developer pursuing  MS in Computer Science at Binghamton University, Specialized in Full Stack development.
