@@ -1,5 +1,9 @@
 import logo from "./logo.png";
-
+import node from "./tech/nodejs.png";
+import express from "./tech/express.png";
+import mongodb from "./tech/mongodb.png";
+import postgresql from "./tech/postgresql.png";
+import redis from "./tech/redis.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -114,4 +118,9 @@ export {
   sahil,
   chain,
   leetcode,
+  postgresql,
+  redis,
+  node,
+  express,
+  mongodb
 };

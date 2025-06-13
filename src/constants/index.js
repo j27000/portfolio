@@ -22,6 +22,12 @@ import {
   petadopt,
   library,
   gameStreet,
+  node,
+  express,
+  mongodb,
+  postgresql,
+  redis,
+
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +58,7 @@ const services = [
     title: "Frontend Developer",
     icon: mobile,
   },
+
 
 ];
 
@@ -85,6 +92,34 @@ const frontendTechnologies = [
     name: "JavaScript",
     icon: javascript,
   },
+];
+
+const backendTechnologies = [
+  {
+    name: "Node.js",
+    icon: node,
+  },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  }
+  
 ];
 
 const tools = [
@@ -124,10 +159,6 @@ const otherTechnologies = [
     icon: cpp,
   },
   {
-    name: "Mysql",
-    icon: mysql,
-  },
-  {
     name: "Firebase",
     icon: firebase,
   },
@@ -139,78 +170,70 @@ const otherTechnologies = [
 
 const experiences = [
   {
-    title: "Petadopt - Full-Stack Web Application for Pet Adoption",
+    title: "AI-Powered Code Navigator - Full-Stack AI Tool",
+    company_name: "Personal Project",
+   
+    points: [
+      "Spearheaded development of a full-stack AI tool enabling developers to upload and navigate codebases using natural language queries",
+      "Visualized dependency graphs using D3.js to help engineers understand complex file relationships",
+      "Integrated OpenAI's GPT API for semantic code search, enabling queries like 'Where is login handled?'",
+      "Successfully parsed and indexed codebases with 1000+ files while maintaining optimal memory usage and search performance",
+      "Implemented RESTful APIs for seamless integration with various development environments",
+      "Developed an intuitive user interface for code exploration and visualization"
+    ],
+    skills: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "D3.js",
+      "OpenAI GPT",
+      "REST APIs"
+    ],
+  },
+  {
+    title: "PetAdopt - Pet Adoption Platform",
     company_name: "Personal Project",
     icon: petadopt,
     iconBg: "#383E56",
-    date: "June 2024 - August 2024",
     points: [
-      "AI-Driven Pet Matching: Integrated Firebase Chatbot with PaLM AI to accurately match pets with potential adopters.",
-      "Real-Time Data Management: Leveraged Firebase Firestore for high uptime and fast data retrieval, ensuring a seamless user experience.",
-      "Advanced Pet Listing and Search: Developed a robust listing system with advanced search capabilities to enhance user engagement.",
-      "Admin Dashboard and Shopping Cart: Built an intuitive admin dashboard and introduced a shopping cart with personalized product recommendations.",
-      "Optimized Performance: Utilized React Context API and React Router to improve application performance and navigation.",
-      "Launched an innovative shopping cart solution that enhanced user engagement by enabling personalized product recommendations.",
-      "Leveraged React Context API for state management",
-      "Conceptualized React Router for navigation."
-
+      "Developed a responsive pet adoption platform with real-time updates for listings from 50+ shelter animals",
+      "Integrated a Google PaLM-powered chatbot to recommend pets based on lifestyle compatibility",
+      "Configured Firestore security rules and role-based access for staff, ensuring data protection and usability",
+      "Tested across various devices including older tablets; applied UI optimizations for performance and accessibility",
+      "Incorporated feedback from 10+ users to deliver features like saved searches and email alerts",
+      "Implemented real-time updates and notifications for new pet listings"
     ],
     skills: [
       "React",
       "Firebase",
-      "Authentication",
       "Firestore",
-      "AI",
-      "Context API",
-      "React Router"
+      "Google PaLM",
+      "Tailwind CSS",
+      "UI Optimization",
+      "UX Design"
     ],
   },
   {
-    title: "Library Management System - Full-Stack Application",
-    company_name: "Personal Project",
-    icon: library,
-    iconBg: "#E6DEDD",
-    date: "January 2024 - May 2024",
-    points: [
-      "Innovative In-Memory Indexing: Developed a system to accelerate book retrieval speeds, eliminating slow sequential scans.",
-      "TypeScript and TDD Implementation: Integrated TypeScript and adopted Test-Driven Development, reducing code errors and post-deployment bugs.",
-      "RESTful APIs and Input Validation: Crafted APIs for efficient data flow and used Zod framework for server-side input validation.",
-      "Enhanced React Components: Improved functionality for real-time updates, boosting user interaction and experience.",
-      "Integrated Zod validation framework, fortifying server-side input validation.",
-      "MongoDB Integration and Process Streamlining: Optimized data storage with MongoDB and simplified library processes to reduce check-out/check-in times.",
-      "Orchestrated MongoDB integration, optimizing data storage and retrieval speeds through efficient CRUD operations.",
-
-    ],
-    skills: [
-      "TypeScript",
-      "JavaScript",
-      "React",
-      "MongoDB",
-      "RESTful API",
-      "Zod","TDD"
-    ],
-  },
-  {
-    title: "Game Street - React-based Online Game Store",
+    title: "Game Street - Digital Game Store",
     company_name: "Personal Project",
     icon: gameStreet,
     iconBg: "#383E56",
-    date: "September 2023 - November 2023",
     points: [
-      "Engineered a sophisticated cart management system using Fetch API, streamlining the checkout process and reducing cart abandonment by 30%.",
-      "Leveraged JSON Server to mock RESTful API endpoints, accelerating development enabling rapid prototyping.",
-      "Simulated complex backend operations for game inventory, orders, and user data, reducing development time.",
-      "Crafted an intuitive order management dashboard, improving order tracking efficiency and enhancing customer satisfaction.",
-      "Implemented JWT-based authentication, bolstering user session security and reducing unauthorized access attempts.",
-      "Designed responsive UI components, ensuring seamless user experience across devices. "
-
+      "Designed and built a responsive platform tailored for digital game purchases, featuring product filtering, cart functionality, and secure checkout with JWT-based authentication",
+      "Used JSON Server to simulate backend APIs, enabling agile front-end development and testing in a decoupled workflow",
+      "Optimized app performance with lazy loading, dynamic code splitting, and Tailwind tuning to maintain smooth UX on slower devices and networks",
+      "Gathered feedback from early 20+ users to refine error handling, improve cart persistence, and enhance checkout clarity",
+      "Implemented secure payment processing and order tracking system",
+      "Developed comprehensive product filtering and search functionality"
     ],
     skills: [
       "React",
-      "Fetch API",
+      "Tailwind CSS",
+      "JWT Auth",
       "JSON Server",
-      "RESTful API",
-      "JWT",
+      "Web Performance",
+      "UX Design",
       "Responsive Design"
     ],
   },
@@ -222,7 +245,7 @@ const education = [
     company_name: "Master of Science in Computer Science",
     icon: circle,
     iconBg: "#383E56",
-    date: "Present - June 2025",
+    
     point: "Currently pursuing a Master's degree in Computer Science. Received Dean's List: Watson college Scholarship for fall 2023. Relevant coursework includes Database Systems, OS, Data Structure and Algorithm, Programming languages, and Distributed Systems.",
   },
   {
@@ -230,7 +253,6 @@ const education = [
     company_name: "Bachelor of Technology in Computer Science",
     icon: circle,
     iconBg: "#383E56",
-    date: "August 2019 - May 2023",
     point: "Completed a Bachelor's degree in Computer Science. Coursework included programming languages (C, C++, JavaScript, TypeScript), web technologies (HTML, CSS, React, CSS Tailwind, Firebase), databases (MySQL, MongoDB), and other relevant technologies such as RESTful APIs, Git, JSON Server, Test-Driven Development (TDD), and Jest.",
   },
 ];
@@ -255,7 +277,12 @@ const projects = [
         name: "AI",
         color: "pink-text-gradient",
       },
-    ],
+      {name:"Node.js",
+        color: "pink-text-gradient",
+      },
+      {name:"Express.js",
+        color: "pink-text-gradient",
+      }    ],
     image: petadopt, // You'll need to import this image
     source_code_link: "https://github.com/j27000/Petadopt",
     project_live_link: "https://petadopt-xi.vercel.app/",
@@ -277,6 +304,25 @@ const projects = [
         name: "React",
         color: "pink-text-gradient",
       },
+      {
+        name: "RESTful API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TDD",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Zod",
+        color: "pink-text-gradient",
+      },
+      {name:"Node.js",
+        color: "pink-text-gradient",
+      },
+      {name:"Express.js",
+        color: "pink-text-gradient",
+      }
+
     ],
     image: library, // You'll need to import this image
     source_code_link: "https://github.com/j27000/LibManagement",
@@ -309,9 +355,10 @@ const projects = [
 export {
   services,
   frontendTechnologies,
+  backendTechnologies,
   otherTechnologies,
   tools,
   experiences,
   projects,
-  education,
+  education
 };

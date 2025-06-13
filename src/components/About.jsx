@@ -54,15 +54,21 @@ const About = () => {
         <br /> <br />
         Key Projects:
         <br /> <br />
-        1. Petadopt: Web application leveraging AI for pet adoption matching. 
+        1. AI-Powered Code Navigator: Full-stack AI tool for codebase navigation using natural language
+        <br />Technologies: React, Node.js, Express.js, MongoDB, D3.js, OpenAI GPT, REST APIs
+        <br /> <br />
+
+        2. Petadopt: Web application leveraging AI for pet adoption matching. 
         <br />Technologies: Firebase, React, AI, Node.js, Express, MongoDB <br />
         <br /> <br />
 
-        2. Library Management System TypeScript, React, Nodejs, TDD, and MongoDB.
+        3. Library Management System TypeScript, React, Nodejs, TDD, and MongoDB.
         <br /> Technologies: TypeScript, React, Nodejs, TDD, and MongoDB Nodejs <br />
         <br /> <br />
-        3. Game Street: Online game store featuring advanced cart management and JWT authentication
+        4. Game Street: Online game store featuring advanced cart management and JWT authentication
+        <br />Technologies: React, Redux, Node.js, Express, MongoDB, JWT, REST APIs
         <br /> <br />
+       
 
 
         Committed to leveraging technology to solve real-world problems and create impactful user experiences. Continuously expanding knowledge to contribute effectively to software development.
