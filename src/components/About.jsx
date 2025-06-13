@@ -51,14 +51,14 @@ const About = () => {
         Software Developer | MS in Computer Science Candidate
 
         <br /> <br />
-        Dedicated software developer pursuing an MS in Computer Science at Binghamton University, with a strong foundation from a BS in Computer Science at Medi-caps University. Specialized in frontend development with a focus on backend technologies.
+        Dedicated software developer pursuing  MS in Computer Science at Binghamton University, Specialized in Full Stack development.
         <br /> <br />
         Key Projects:
         <br /> <br />
-        1. Petadopt: Web application leveraging AI for pet adoption matching. Technologies: Firebase, React, AI
+        1. Petadopt: Web application leveraging AI for pet adoption matching. Technologies: Firebase, React, AI, Node.js, Express, MongoDB
         <br /> <br />
 
-        2. Library Management System: Efficient system using TypeScript, TDD, and MongoDB
+        2. Library Management System: Efficient system using TypeScript, TDD, and MongoDB.
         <br /> <br />
         3. Game Street: Online game store featuring advanced cart management and JWT authentication
         <br /> <br />
